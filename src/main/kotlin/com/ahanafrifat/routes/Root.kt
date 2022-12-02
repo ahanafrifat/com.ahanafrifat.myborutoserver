@@ -9,7 +9,7 @@ fun Route.root() {
 
     get("/") {
         call.respond(
-            message = "Welcome to Buruto API",
+            message = "Welcome to Boruto API!",
             status = HttpStatusCode.OK
         )
     }
